@@ -133,26 +133,7 @@ export default function Login({ onLogin }: { onLogin: (official: Official) => vo
           </button>
         </form>
 
-        <div className="border-t border-slate-100 bg-slate-50 px-7 py-7 sm:px-10">
-          <p className="mb-4 text-center text-xs font-bold uppercase tracking-[0.16em] text-slate-400">Demo credentials</p>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <button type="button" onClick={() => fillDemo('police', 'PD-1042', 'police123')} className="rounded-xl border border-slate-200 bg-white p-4 text-center transition hover:-translate-y-0.5 hover:shadow-md">
-              <p className="mb-1 flex items-center justify-center gap-1.5 text-sm font-bold text-[#003c36]"><ShieldCheck size={15} className="text-[#18a765]" /> Delhi Police</p>
-              <p className="text-xs text-slate-500">Badge: <b className="text-slate-700">PD-1042</b></p>
-              <p className="text-xs text-slate-500">Pass: <b className="text-slate-700">police123</b></p>
-            </button>
-            <button type="button" onClick={() => fillDemo('police', 'PD-2088', 'police123')} className="rounded-xl border border-slate-200 bg-white p-4 text-center transition hover:-translate-y-0.5 hover:shadow-md">
-              <p className="mb-1 flex items-center justify-center gap-1.5 text-sm font-bold text-[#003c36]"><ShieldCheck size={15} className="text-[#18a765]" /> Mumbai Police</p>
-              <p className="text-xs text-slate-500">Badge: <b className="text-slate-700">PD-2088</b></p>
-              <p className="text-xs text-slate-500">Pass: <b className="text-slate-700">police123</b></p>
-            </button>
-            <button type="button" onClick={() => fillDemo('court', 'CRT-5001', 'court123')} className="rounded-xl border border-slate-200 bg-white p-4 text-center transition hover:-translate-y-0.5 hover:shadow-md">
-              <p className="mb-1 flex items-center justify-center gap-1.5 text-sm font-bold text-[#003c36]"><Gavel size={15} className="text-[#18a765]" /> Court</p>
-              <p className="text-xs text-slate-500">Court: <b className="text-slate-700">CRT-5001</b></p>
-              <p className="text-xs text-slate-500">Pass: <b className="text-slate-700">court123</b></p>
-            </button>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
