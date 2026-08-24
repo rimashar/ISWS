@@ -61,7 +61,7 @@ export default function Login({ onLogin }: { onLogin: (official: Official) => vo
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#003c36] via-[#0b423c] to-[#00251f] px-4 py-10">
-      <p className="mb-8 text-center text-lg font-semibold text-white/70">Digital Justice Network — Secure Portal</p>
+      <p className="mb-8 text-center text-lg font-semibold text-white/70">Integrated Summons and Warrants System — Secure Portal</p>
 
       <div className="mx-auto w-full max-w-[560px] overflow-hidden rounded-3xl bg-white shadow-2xl">
         <div className="grid grid-cols-2">

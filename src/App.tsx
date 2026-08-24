@@ -61,9 +61,9 @@ function AppShell({ official, onLogout }: { official: Official; onLogout: () => 
             </div>
             <div>
               <p className="text-lg font-bold tracking-tight">
-                Nyaya<span className="text-[#90e7a4]">Setu</span>
+                IS<span className="text-[#90e7a4]">WS</span>
               </p>
-              <p className="text-[10px] uppercase tracking-[0.22em] text-white/55">Digital Justice Network</p>
+              <p className="text-[10px] uppercase tracking-[0.22em] text-white/55">Integrated Summons and Warrants System</p>
             </div>
           </div>
           <nav className="hidden h-full items-center gap-1 lg:flex">
